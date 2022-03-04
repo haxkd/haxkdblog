@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>HAXKD BLOG | HOME</title>
+
+</head>
+
+<div id="data">DATA</div>
+
+<body>
+
+    <!-- Bootstrap core JS-->
+    <script src="assets/js/core/jquery.min.js "></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyAbzl0zDpkSac-2v94zWpopKW7vNOOwMjg",
+            authDomain: "haxkdb.firebaseapp.com",
+            projectId: "haxkdb",
+            storageBucket: "haxkdb.appspot.com",
+            messagingSenderId: "117717862942",
+            appId: "1:117717862942:web:6faa309539410f59ddfc0f",
+            measurementId: "G-CRQLG1FWKS"
+        };
+        // Initialize Firebase
+        const app = firebase.initializeApp(firebaseConfig);
+        db = firebase.firestore(app);
+        // console.log('load');
+
+
+        
+
+
+
+        // db.collection("newdata").orderBy("blog_desc").limit(1).get().then((querySnapshot) => {
+        //     querySnapshot.forEach((doc) => {
+        //         // doc.data() is never undefined for query doc snapshots
+        //         console.log(doc.id, " => ", doc.data());
+        //     });
+        // });
+       
+
+
+    </script>
+</body>
+
+</html>
